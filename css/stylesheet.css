@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body, figure{
+    margin: 0;
+    font-family: Montserrat;
+}
+img{
+    width: 100%;
+}
+a{
+    color:#979797;
+}
+h1{
+    position: absolute;
+    top:46px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    color:#2FBBC4;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 70px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.431);
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+main section{
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+
+main section:first-of-type figure{
+    height: inherit;
+    background-image: url("../images/roland-denes-800152-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+main section:last-child article{
+    width: 72.2%;
+    margin: 0 auto;
+}
+main section:last-child article > div {
+    text-align: right;
+    margin-top:66px;
+}
+main section:last-child article > div p{
+    display: inline-block;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #979797;
+}
+main section:last-child article > div a{
+    display: inline-block;
+    width: 124px;
+    height: 42px;
+    text-align: center;
+    border: 1px solid #979797;
+    border-radius: 22px;
+    text-decoration: none;
+    line-height: 42px;
+    color: #979797;
+    font-weight: 600;
+    font-size: 14px;
+}
+main section:last-child form > label{
+   display: block;
+   font-size: 16px;
+   font-weight: 500;
+   color: #434C5F;
+   margin-top:10px;
+   margin-bottom: 5px;
+}
+
+main section:last-child form input:not([type="submit"]):not([type="checkbox"]){
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(38, 44, 56);
+    padding:10px;
+ }
+ main section:last-child form input::-webkit-input-placeholder{
+    color: #E2E2E2;
+ }
+ main section:last-child form input[type="password"]{
+    margin-bottom: 25px;
+ }
+ main section:last-child form input[type="submit"]{
+    display: block;
+    text-align: center;
+    margin:0 auto;
+    width: 124px;
+    height: 42px;
+    border: 0;
+    border-radius: 22px;
+    background-color: #2FBBC4;
+    color:white;
+    box-shadow: 0px 3px 13px rgba(0, 0, 0, 0.498);
+ }
+
+ /* Sign In */
+ #signIn section:first-of-type figure{
+    background-image: url("../images/carl-heyerdahl-181868-unsplash.jpg");
+}
+#signIn section:last-child form {
+    margin-top: 130px;
+}
+ #signIn section:last-child form div label{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #434C5F;
+    margin-top:10px;
+    margin-bottom: 5px;
+ }
+ #signIn section:last-child form div span{
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    color: #434C5F;
+    margin-top:17px;
+ }
+ /* Sign In */
+
+ /* Sign Up */
+ #signUp section:last-child form {
+    margin-top: 70px;
+}
+ #signUp section:first-of-type figure{
+    background-image: url("../images/roland-denes-800152-unsplash.jpg");
+}
+ #signUp section:last-child form h2{
+    margin: 0 0 31px 0;
+    font-size: 24px;
+    color: #434C5F;
+    font-weight: 500;
+}
+#signUp section:last-child form > div{
+    display: flex;
+    justify-content: center;
+ }
+
+ #signUp section:last-child form > div label{
+    width: 279px;
+ }
+ #signUp section:last-child form > p{
+    text-align: center;
+ }
+ /* sign Up
